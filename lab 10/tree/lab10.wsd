@@ -1,0 +1,18 @@
+@startuml
+
+'install PlantUML 
+'run alt+D
+
+
+scale 2
+
+class Iterable
+interface Position
+interface Tree extends Iterable
+interface BinaryTree extends Tree
+abstract class AbstractTree implements Tree
+abstract class AbstractBinaryTree  extends AbstractTree implements BinaryTree 
+class LinkedBinaryTree extends AbstractBinaryTree 
+
+ 
+@enduml
